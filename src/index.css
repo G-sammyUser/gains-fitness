@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #050505;
+  color: #f7f7f2;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #050505;
+}
+
+button,
+a,
+select {
+  font: inherit;
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+.flip-card:focus-visible {
+  outline: 3px solid #b6ff3f;
+  outline-offset: 4px;
+}
+
+.gains-display {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hero-bg {
+  animation: hero-pan 18s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+.animate-rise {
+  animation: rise-in 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.ticker {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-track {
+  display: inline-flex;
+  min-width: max-content;
+  animation: ticker-scroll 26s linear infinite;
+}
+
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+.flip-card {
+  perspective: 1400px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+.progress-widget {
+  animation: widget-float 5s ease-in-out infinite;
+}
+
+.pulse-ring {
+  position: relative;
+}
+
+.pulse-ring::after {
+  position: absolute;
+  inset: -7px;
+  border: 1px solid rgba(182, 255, 63, 0.6);
+  border-radius: 9999px;
+  content: "";
+  animation: pulse-ring 1.8s ease-out infinite;
+}
+
+.meter-fill {
+  width: var(--meter-width, 80%);
+  animation: meter-grow 1.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes hero-pan {
+  from {
+    transform: scale(1.04) translate3d(-1%, 0, 0);
+  }
+  to {
+    transform: scale(1.1) translate3d(1.5%, -1%, 0);
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes widget-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-ring {
+  from {
+    opacity: 0.85;
+    transform: scale(0.84);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.25);
+  }
+}
+
+@keyframes meter-grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--meter-width, 80%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
