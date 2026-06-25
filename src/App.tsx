@@ -30,9 +30,9 @@ const navigation = ["Workouts", "Coaches", "Pricing", "Dashboard"];
 
 const workouts: Workout[] = [
   {
-    slug: "desk-to-dominant-25",
-    title: "Desk-to-Dominant 25",
-    instructor: "Maya Chen",
+    slug: "hypertrophy-blueprint",
+    title: "Hypertrophy Blueprint",
+    instructor: "Marcus Vance",
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
@@ -42,7 +42,7 @@ const workouts: Workout[] = [
   },
   {
     slug: "strength-density",
-    title: "Strength Density",
+    title: "CNS Strength Density",
     instructor: "Jordan Price",
     duration: 40,
     difficulty: "Intermediate",
@@ -53,7 +53,7 @@ const workouts: Workout[] = [
   },
   {
     slug: "barbell-engine",
-    title: "Barbell Engine",
+    title: "Barbell Kinetic Engine",
     instructor: "Andre Miles",
     duration: 55,
     difficulty: "Advanced",
@@ -64,7 +64,7 @@ const workouts: Workout[] = [
   },
   {
     slug: "mobility-reset",
-    title: "Mobility Reset",
+    title: "Structural Mobility Reset",
     instructor: "Nia Brooks",
     duration: 30,
     difficulty: "Beginner",
@@ -75,8 +75,8 @@ const workouts: Workout[] = [
   },
   {
     slug: "power-lunch-lift",
-    title: "Power Lunch Lift",
-    instructor: "Maya Chen",
+    title: "Metabolic Conditioning",
+    instructor: "Marcus Vance",
     duration: 35,
     difficulty: "Intermediate",
     equipment: "Bodyweight",
@@ -86,7 +86,7 @@ const workouts: Workout[] = [
   },
   {
     slug: "heavy-hitter",
-    title: "Heavy Hitter",
+    title: "Mechanical Tension Peak",
     instructor: "Andre Miles",
     duration: 60,
     difficulty: "Advanced",
@@ -96,6 +96,7 @@ const workouts: Workout[] = [
     alt: "Athlete performing dumbbell curls in a gym.",
   },
 ];
+
 
 const coaches = [
   {
