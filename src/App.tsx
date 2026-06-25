@@ -26,7 +26,7 @@ type OnboardingState = {
 const heroImage =
   "https://images.pexels.com/photos/32695899/pexels-photo-32695899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=1800";
 
-const navigation = ["Workouts", "Coaches", "Pricing", "Dashboard", "Setup"];
+const navigation = ["Workouts", "Coaches", "Pricing", "Dashboard"];
 
 const workouts: Workout[] = [
   {
@@ -1033,45 +1033,6 @@ export default function App() {
           </div>
         </section>
 
-        <section id="setup" className="px-5 py-24 md:px-8 lg:py-32">
-          <div className="mx-auto max-w-7xl">
-            <SectionIntro
-              label="Production setup"
-              title="Cloud storage made for this website."
-              body="The app is wired for a dedicated Supabase project. Run the schema, add environment variables, and every user profile, booking, membership choice, and completion will be stored in your cloud database."
-            />
-
-            <div className="grid gap-6 lg:grid-cols-3">
-              {[
-                ["1. Create Supabase", "Create a new Supabase project named GAINS, enable email/password Auth, and copy the project URL plus anon key."],
-                ["2. Run the schema", "Open the Supabase SQL editor and run `supabase/schema.sql` from this codebase to create secured tables and RLS policies."],
-                ["3. Add environment", "Create `.env` from `.env.example`, paste `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`, then redeploy."],
-              ].map(([title, body]) => (
-                <div key={title} className="border-t border-lime-300 pt-6">
-                  <h3 className="text-3xl font-black tracking-[-0.05em] text-white">{title}</h3>
-                  <p className="mt-5 leading-7 text-zinc-300">{body}</p>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-14 rounded-[2rem] border border-white/10 bg-white/[0.04] p-7 md:p-10">
-              <p className="text-sm font-black uppercase tracking-[0.25em] text-lime-300">What is already production-wired</p>
-              <div className="mt-7 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-                {[
-                  ["Auth", "Real email and password accounts through Supabase Auth."],
-                  ["Profiles", "Goal, experience, equipment, plan, and billing cycle stored in `profiles`."],
-                  ["Bookings", "Class reservations stored in `class_bookings` with per-user RLS."],
-                  ["Progress", "Completed workouts stored in `workout_completions` and used for streaks."],
-                ].map(([title, body]) => (
-                  <div key={title}>
-                    <h4 className="text-2xl font-black tracking-[-0.04em] text-white">{title}</h4>
-                    <p className="mt-3 leading-7 text-zinc-300">{body}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
 
       {authOpen ? (
