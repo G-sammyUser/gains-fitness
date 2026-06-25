@@ -699,22 +699,6 @@ export default function App() {
           </div>
         </section>
 
-        {!isSupabaseConfigured ? (
-          <section className="border-y border-orange-400/30 bg-orange-500/10 px-5 py-10 md:px-8">
-            <div className="mx-auto max-w-7xl">
-              <p className="text-sm font-black uppercase tracking-[0.3em] text-orange-200">Cloud connection required</p>
-              <div className="mt-4 grid gap-5 lg:grid-cols-[1fr_0.8fr] lg:items-center">
-                <h2 className="text-3xl font-black tracking-[-0.05em] text-white md:text-5xl">
-                  This build is production-shaped, but it needs your dedicated Supabase project keys before it can accept real users.
-                </h2>
-                <p className="text-lg leading-8 text-orange-100/90">
-                  I removed browser-based member storage. Member data now goes to cloud tables only after `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and the SQL schema are configured.
-                </p>
-              </div>
-            </div>
-          </section>
-        ) : null}
-
         <section className="border-b border-white/10 bg-[#090a0d] px-5 py-16 md:px-8">
           <div className="mx-auto max-w-7xl overflow-hidden py-3">
             <div className="ticker border-y border-white/10 py-5" aria-label="Featured publication logos">
