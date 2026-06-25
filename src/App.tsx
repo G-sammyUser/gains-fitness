@@ -219,7 +219,26 @@ export default function App() {
   const [billing, setBilling] = useState<BillingCycle>("monthly");
   const [notice, setNotice] = useState("");
   const [isBusy, setIsBusy] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+  const [passwordStrength, setPasswordStrength] = useState({ score: 0, label: "Weak ❌", color: "bg-red-500 w-1/4" });
 
+  function checkPasswordStrength(value: string) {
+    let score = 0;
+    if (value.length >= 8) score++;
+    if (/[A-Z]/.test(value)) score++;
+    if (/[0-9]/.test(value)) score++;
+    if (/[^A-Za-z0-9]/.test(value)) score++;
+
+    if (score <= 1) {
+      setPasswordStrength({ score, label: "Weak ❌", color: "bg-red-500 w-1/4" });
+    } else if (score === 2) {
+      setPasswordStrength({ score, label: "Fair ⚠️", color: "bg-orange-500 w-2/4" });
+    } else if (score === 3) {
+      setPasswordStrength({ score, label: "Good ⚡", color: "bg-yellow-500 w-3/4" });
+    } else if (score === 4) {
+      setPasswordStrength({ score, label: "Strong 💪", color: "bg-lime-300 w-full" });
+    }
+  }
   const isSignedIn = Boolean(session);
   const firstName = profile?.full_name?.trim().split(" ")[0] || session?.user.email?.split("@")[0] || "Member";
   const weeklyGoal = profile?.weekly_goal ?? onboarding.weekly_goal;
