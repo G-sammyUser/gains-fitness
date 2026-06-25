@@ -1036,6 +1036,36 @@ export default function App() {
           </div>
         </section>
 
+                {/* Testimonials / Social Proof Section */}
+        <section className="border-t border-white/5 bg-zinc-950/40 py-20 px-4">
+          <div className="mx-auto max-w-4xl text-center">
+            <p className="text-xs font-black uppercase tracking-[0.35em] text-lime-300">Proven Results</p>
+            <h2 className="mt-4 text-4xl font-black tracking-[-0.05em] text-white md:text-5xl">
+              Built by Logic. Backed by Performance.
+            </h2>
+            
+            <div className="mt-12 grid gap-6 sm:grid-cols-2 text-left">
+              <div className="rounded-[2rem] border border-white/5 bg-black p-6 transition duration-300 hover:border-lime-300/20 md:p-8">
+                <p className="text-zinc-300 text-sm leading-relaxed md:text-base">
+                  "The tracking logic is seamless. Down 12lbs of body fat while increasing my compound lifts. This isn't a basic, bloated fitness tracker—it's a clean performance system."
+                </p>
+                <div className="mt-5 text-xs font-black uppercase tracking-[0.18em] text-white">
+                  — David K., Software Engineer
+                </div>
+              </div>
+
+              <div className="rounded-[2rem] border border-white/5 bg-black p-6 transition duration-300 hover:border-lime-300/20 md:p-8">
+                <p className="text-zinc-300 text-sm leading-relaxed md:text-base">
+                  "Most fitness platforms are choked with unnecessary UI garbage and marketing fluff. This layout gets straight to the point: raw performance metrics and clean scheduling."
+                </p>
+                <div className="mt-5 text-xs font-black uppercase tracking-[0.18em] text-white">
+                  — Sarah M., Systems Analyst
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
       {authOpen ? (
