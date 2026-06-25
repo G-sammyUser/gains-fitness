@@ -247,7 +247,7 @@ export default function App() {
   const progressPercent = Math.min(100, Math.round((progressCount / weeklyGoal) * 100));
   const streak = calculateStreak(completions);
   const hasFinishedOnboarding = Boolean(profile?.goal && profile?.experience);
-  const recommendedWorkout = useMemo(() => {
+    const recommendedWorkout = useMemo(() => {
     if (!profile || profile.experience === "Beginner") {
       return workouts.find((workout) => workout.difficulty === "Beginner") ?? workouts[0];
     }
@@ -258,6 +258,7 @@ export default function App() {
 
     return workouts.find((workout) => workout.slug === "mobility-reset") ?? workouts[0];
   }, [profile]);
+
 
   const filteredWorkouts = useMemo(() => {
     return workouts.filter((workout) => {
