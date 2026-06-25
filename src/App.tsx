@@ -100,33 +100,31 @@ const workouts: Workout[] = [
 
 const coaches = [
   {
-    name: "Maya Chen",
-    role: "Beginner strength systems",
-    image:
-      "https://images.pexels.com/photos/32695885/pexels-photo-32695885.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800",
-    alt: "Confident fitness coach posing in a gym.",
-    bio: "Maya helps new members turn a busy week into a realistic training rhythm.",
-    certs: "NASM-CPT, Precision Nutrition L1",
+    name: "Marcus Vance",
+    role: "Biomechanics & Strength Lead",
+    bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
+    image: "https://images.pexels.com/photos/4325451/pexels-photo-4325451.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+  },
+  {
+    name: "Jordan Price",
+    role: "CNS Performance Specialist",
+    bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
+    image: "https://images.pexels.com/photos/3768593/pexels-photo-3768593.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
   },
   {
     name: "Andre Miles",
-    role: "Barbell and hypertrophy",
-    image:
-      "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800",
-    alt: "Male gym trainer portrait under blue neon gym lighting.",
-    bio: "Andre builds strength plans around form, recovery, and repeatable progression.",
-    certs: "CSCS, USAW L1",
+    role: "Olympic Lifting & Loading Master",
+    bio: "Focused on structural force transmission, heavy barbell engineering, and compound movement safety protocols.",
+    image: "https://images.pexels.com/photos/1552634/pexels-photo-1552634.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
   },
   {
     name: "Nia Brooks",
-    role: "Mobility and conditioning",
-    image:
-      "https://images.pexels.com/photos/6455771/pexels-photo-6455771.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800",
-    alt: "Female athlete training with ropes next to a coach.",
-    bio: "Nia makes movement less intimidating so beginners can build confidence first.",
-    certs: "ACE-CPT, FMS L2",
-  },
+    role: "Kinetic Longevity Specialist",
+    bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
+    image: "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+  }
 ];
+
 
 const pricing = [
   {
