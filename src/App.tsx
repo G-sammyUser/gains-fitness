@@ -66,7 +66,7 @@ const workouts: Workout[] = [
     duration: 30,
     difficulty: "Beginner",
     equipment: "Bands",
-    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&auto=format&fit=crop",
     alt: "Athlete training with ropes near a coach in a gym.",
   },
   {
