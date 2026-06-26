@@ -36,8 +36,8 @@ const workouts: Workout[] = [
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
-    image: "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800",
-    alt: "Two athletes warming up indoors before a focused training session.",
+   image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop",
+   alt: "Male athlete training in the gym.",
   },
   {
     slug: "strength-density",
@@ -72,7 +72,7 @@ const workouts: Workout[] = [
   {
     slug: "power-lunch-lift",
     title: "Metabolic Conditioning",
-    instructor: "Marcus Vance",
+    instructor: "Zara Brooks",
     duration: 35,
     difficulty: "Intermediate",
     equipment: "Bodyweight",
@@ -112,13 +112,19 @@ const coaches = [
     bio: "Focused on structural force transmission, heavy barbell engineering, and compound mechanics.",
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop"
   },
+
+  {
+    name: "Zara Brooks",
+    role: "Metabolic Conditioning Master",
+    bio: "Specializing in high-velocity conditioning, functional endurance, and core power dynamics.",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&auto=format&fit=crop" // Matches her profile view
+  },
   {
     name: "Nia Brooks",
     role: "Kinetic Longevity Specialist",
     bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
     image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&auto=format&fit=crop"
 ];
-
 
 
 const pricing = [
