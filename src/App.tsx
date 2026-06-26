@@ -36,7 +36,6 @@ const workouts: Workout[] = [
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
-    // Clean workout placeholder link
     image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop",
     alt: "Two athletes warming up indoors before a focused training session.",
   },
@@ -47,7 +46,6 @@ const workouts: Workout[] = [
     duration: 40,
     difficulty: "Intermediate",
     equipment: "Dumbbells",
-    // Fixed with your dumbbell curl/gym image link!
     image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop",
     alt: "Athlete lifting dumbbells in a modern gym.",
   },
@@ -58,7 +56,6 @@ const workouts: Workout[] = [
     duration: 55,
     difficulty: "Advanced",
     equipment: "Barbell",
-    // Fixed with your muscular man battle ropes link! (No more gift boxes!)
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop",
     alt: "Trainer spotting an athlete during barbell strength work.",
   },
@@ -101,14 +98,12 @@ const coaches = [
     name: "Marcus Vance",
     role: "Biomechanics & Strength Lead",
     bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
-    // A clean, professional male trainer fitness image
     image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&auto=format&fit=crop"
   },
   {
     name: "Jordan Price",
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
-  ent link (replaces the female profile match)
     image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop
 "
   },
@@ -116,14 +111,12 @@ const coaches = [
     name: "Tasha Chase",
     role: "Olympic Lifting & Loading Master",
     bio: "Focused on structural force transmission, heavy barbell engineering, and compound movement safety protocols.",
-    // Fixed: Your high-intensity muscular battle ropes link (bypasses the keyword "loading" holiday box glitch)
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop"
   },
   {
     name: "Nia Brooks",
     role: "Kinetic Longevity Specialist",
     bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
-    // Keeping a high-quality fitness asset for Nia
     image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&auto=format&fit=crop"
   }
 ];
