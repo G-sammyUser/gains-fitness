@@ -97,15 +97,16 @@ const coaches = [
   {
     name: "Marcus Vance",
     role: "Biomechanics & Strength Lead",
-    bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
-    image: "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800"
+    bio: "Specializing in fixing imbalances and moving efficiently.",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop"
   },
   {
     name: "Jordan Price",
     role: "CNS Performance Specialist",
-    bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
-    image: "image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop","
-  },
+    bio: "Optimizing central nervous system efficiency, velocity-based training, and athletic power development.",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop"
+  }
+];
   {
     name: "Tasha Chase",
     role: "Olympic Lifting & Loading Master",
@@ -117,7 +118,6 @@ const coaches = [
     role: "Kinetic Longevity Specialist",
     bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
     image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&auto=format&fit=crop"
-  }
 ];
 
 
