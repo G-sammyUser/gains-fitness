@@ -46,7 +46,7 @@ const workouts: Workout[] = [
     duration: 40,
     difficulty: "Intermediate",
     equipment: "Dumbbells",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/703010/pexels-photo-703010.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
     alt: "Athlete lifting dumbbells in a modern gym.",
   },
   {
