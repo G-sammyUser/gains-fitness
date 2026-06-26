@@ -36,7 +36,7 @@ const workouts: Workout[] = [
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800",
     alt: "Two athletes warming up indoors before a focused training session.",
   },
   {
@@ -98,7 +98,7 @@ const coaches = [
     name: "Marcus Vance",
     role: "Biomechanics & Strength Lead",
     bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop"
+    image: "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800"
   },
   {
     name: "Jordan Price",
