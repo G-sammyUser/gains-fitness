@@ -54,7 +54,7 @@ const workouts: Workout[] = [
   {
     slug: "barbell-engine",
     title: "Barbell Kinetic Engine",
-    instructor: "Andre Miles",
+    instructor: "Tasha Chase",
     duration: 55,
     difficulty: "Advanced",
     equipment: "Barbell",
@@ -113,7 +113,7 @@ const coaches = [
 "
   },
   {
-    name: "Andre Miles",
+    name: "Tasha Chase",
     role: "Olympic Lifting & Loading Master",
     bio: "Focused on structural force transmission, heavy barbell engineering, and compound movement safety protocols.",
     // Fixed: Your high-intensity muscular battle ropes link (bypasses the keyword "loading" holiday box glitch)
