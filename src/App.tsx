@@ -59,7 +59,7 @@ const workouts: Workout[] = [
     difficulty: "Advanced",
     equipment: "Barbell",
     // Fixed with your muscular man battle ropes link! (No more gift boxes!)
-    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop",
     alt: "Trainer spotting an athlete during barbell strength work.",
   },
   {
