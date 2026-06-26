@@ -36,7 +36,7 @@ const workouts: Workout[] = [
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop",
     alt: "Two athletes warming up indoors before a focused training session.",
   },
   {
@@ -116,7 +116,7 @@ const coaches = [
     name: "Nia Brooks",
     role: "Kinetic Longevity Specialist",
     bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
-    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?w=800&auto=format&fit=crop"
   }
 ];
 
