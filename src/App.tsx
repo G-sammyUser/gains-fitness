@@ -76,7 +76,7 @@ const workouts: Workout[] = [
     duration: 35,
     difficulty: "Intermediate",
     equipment: "Bodyweight",
-    image: "https://images.pexels.com/photos/13588102/pexels-photo-13588102.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    image: "https://images.pexels.com/photos/13197535/pexels-photo-13197535.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
     alt: "Group of athletes performing push-ups together in a gym.",
   },
   {
@@ -117,7 +117,7 @@ const coaches = [
     name: "Zara Brooks",
     role: "Metabolic Conditioning Master",
     bio: "Specializing in high-velocity conditioning, functional endurance, and core power dynamics.",
-    image: "https://images.pexels.com/photos/35649983/pexels-photo-35649983.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900" 
+    image: "https://images.pexels.com/photos/13197591/pexels-photo-13197591.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900" 
   },
   {
     name: "Nia Brooks",
