@@ -105,12 +105,11 @@ const coaches = [
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based training, and athletic power development.",
     image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop"
-  }
-];
+  },
   {
     name: "Tasha Chase",
     role: "Olympic Lifting & Loading Master",
-    bio: "Focused on structural force transmission, heavy barbell engineering, and compound movement safety protocols.",
+    bio: "Focused on structural force transmission, heavy barbell engineering, and compound mechanics.",
     image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop"
   },
   {
