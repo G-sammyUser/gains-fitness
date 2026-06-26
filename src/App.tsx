@@ -98,7 +98,7 @@ const coaches = [
     name: "Marcus Vance",
     role: "Biomechanics & Strength Lead",
     bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop"
   },
   {
     name: "Jordan Price",
