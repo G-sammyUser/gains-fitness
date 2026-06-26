@@ -48,7 +48,7 @@ const workouts: Workout[] = [
     difficulty: "Intermediate",
     equipment: "Dumbbells",
     // Fixed with your dumbbell curl/gym image link!
-    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop",
     alt: "Athlete lifting dumbbells in a modern gym.",
   },
   {
