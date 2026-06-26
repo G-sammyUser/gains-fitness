@@ -117,7 +117,7 @@ const coaches = [
     name: "Zara Brooks",
     role: "Metabolic Conditioning Master",
     bio: "Specializing in high-velocity conditioning, functional endurance, and core power dynamics.",
-    image: "https://images.pexels.com/photos/13197591/pexels-photo-13197591.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=300" 
+    image: "https://images.pexels.com/photos/13197591/pexels-photo-13197591.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=200" 
   },
   {
     name: "Nia Brooks",
