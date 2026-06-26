@@ -46,7 +46,7 @@ const workouts: Workout[] = [
     duration: 40,
     difficulty: "Intermediate",
     equipment: "Dumbbells",
-    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop",
+    image: "image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop",",
     alt: "Athlete lifting dumbbells in a modern gym.",
   },
   {
@@ -104,7 +104,7 @@ const coaches = [
     name: "Jordan Price",
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
-    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop"
+    image: "image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800&auto=format&fit=crop","
   },
   {
     name: "Tasha Chase",
