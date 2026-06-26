@@ -36,8 +36,8 @@ const workouts: Workout[] = [
     duration: 25,
     difficulty: "Beginner",
     equipment: "Bodyweight",
-    image:
-      "https://images.pexels.com/photos/7676552/pexels-photo-7676552.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    // Clean workout placeholder link
+    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop",
     alt: "Two athletes warming up indoors before a focused training session.",
   },
   {
@@ -47,8 +47,8 @@ const workouts: Workout[] = [
     duration: 40,
     difficulty: "Intermediate",
     equipment: "Dumbbells",
-    image:
-      "https://images.pexels.com/photos/5327477/pexels-photo-5327477.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    // Fixed with your dumbbell curl/gym image link!
+    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=600&auto=format&fit=crop",
     alt: "Athlete lifting dumbbells in a modern gym.",
   },
   {
@@ -58,8 +58,8 @@ const workouts: Workout[] = [
     duration: 55,
     difficulty: "Advanced",
     equipment: "Barbell",
-    image:
-      "https://images.pexels.com/photos/13951240/pexels-photo-13951240.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    // Fixed with your muscular man battle ropes link! (No more gift boxes!)
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=600&auto=format&fit=crop",
     alt: "Trainer spotting an athlete during barbell strength work.",
   },
   {
@@ -69,8 +69,7 @@ const workouts: Workout[] = [
     duration: 30,
     difficulty: "Beginner",
     equipment: "Bands",
-    image:
-      "https://images.pexels.com/photos/6455771/pexels-photo-6455771.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=600&auto=format&fit=crop",
     alt: "Athlete training with ropes near a coach in a gym.",
   },
   {
@@ -80,8 +79,7 @@ const workouts: Workout[] = [
     duration: 35,
     difficulty: "Intermediate",
     equipment: "Bodyweight",
-    image:
-      "https://images.pexels.com/photos/14679049/pexels-photo-14679049.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop",
     alt: "Group of athletes performing push-ups together in a gym.",
   },
   {
@@ -91,11 +89,11 @@ const workouts: Workout[] = [
     duration: 60,
     difficulty: "Advanced",
     equipment: "Dumbbells",
-    image:
-      "https://images.pexels.com/photos/5327483/pexels-photo-5327483.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop",
     alt: "Athlete performing dumbbell curls in a gym.",
   },
 ];
+
 
 
 const coaches = [
