@@ -108,8 +108,9 @@ const coaches = [
     name: "Jordan Price",
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
-    // Fixed: Your sharp dumbbell training/gym environment link (replaces the female profile match)
-    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop"
+  ent link (replaces the female profile match)
+    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop
+"
   },
   {
     name: "Andre Miles",
