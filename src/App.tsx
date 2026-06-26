@@ -101,27 +101,32 @@ const coaches = [
     name: "Marcus Vance",
     role: "Biomechanics & Strength Lead",
     bio: "Specializing in structural alignment, metabolic stress thresholds, and elite power development plans.",
-    image: "https://images.pexels.com/photos/4325451/pexels-photo-4325451.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+    // A clean, professional male trainer fitness image
+    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=800&auto=format&fit=crop"
   },
   {
     name: "Jordan Price",
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based tracking, and explosive physical outputs.",
-    image: "https://images.pexels.com/photos/3768593/pexels-photo-3768593.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+    // Fixed: Your sharp dumbbell training/gym environment link (replaces the female profile match)
+    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop"
   },
   {
     name: "Andre Miles",
     role: "Olympic Lifting & Loading Master",
     bio: "Focused on structural force transmission, heavy barbell engineering, and compound movement safety protocols.",
-    image: "https://images.pexels.com/photos/1552634/pexels-photo-1552634.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+    // Fixed: Your high-intensity muscular battle ropes link (bypasses the keyword "loading" holiday box glitch)
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&auto=format&fit=crop"
   },
   {
     name: "Nia Brooks",
     role: "Kinetic Longevity Specialist",
     bio: "Dedicated to soft-tissue restoration, connective tissue adaptation, and long-range mobility integration.",
-    image: "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=400"
+    // Keeping a high-quality fitness asset for Nia
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=800&auto=format&fit=crop"
   }
 ];
+
 
 
 const pricing = [
