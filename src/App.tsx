@@ -76,7 +76,7 @@ const workouts: Workout[] = [
     duration: 35,
     difficulty: "Intermediate",
     equipment: "Bodyweight",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop",
+    image: "https://images.pexels.com/photos/13588102/pexels-photo-13588102.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=650&w=900",
     alt: "Group of athletes performing push-ups together in a gym.",
   },
   {
