@@ -104,7 +104,7 @@ const coaches = [
     name: "Jordan Price",
     role: "CNS Performance Specialist",
     bio: "Optimizing central nervous system efficiency, velocity-based training, and athletic power development.",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop"
+    image: "https://images.pexels.com/photos/3912944/pexels-photo-3912944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1100&w=800"
   },
   {
     name: "Tasha Chase",
